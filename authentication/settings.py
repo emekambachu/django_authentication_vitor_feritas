@@ -132,4 +132,4 @@ STATICFILES_DIRS = (
 
 # login and logout redirect
 LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'thanks'
+LOGOUT_REDIRECT_URL = 'home'
