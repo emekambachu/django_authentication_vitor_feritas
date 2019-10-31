@@ -12,6 +12,8 @@
         <li><a href="{% url 'password_reset' %}">Reset Password</a> </li>
 
         {% if user.is_authenticated %}
+        <li><a href="{% url 'secret' %}">Secret</a> </li>
+        <li><a href="{% url 'secret2' %}">Secret Class based view</a> </li>
         <li><a href="{% url 'password_change' %}">Update Password</a> </li>
         <li><a href="{% url 'logout' %}">Logout</a> </li>
         {% endif %}
